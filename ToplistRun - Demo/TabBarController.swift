@@ -32,11 +32,11 @@ final class TabBarController: UITabBarController {
         tabBar.tintColor = Resources.Colors.active
         tabBar.barTintColor = Resources.Colors.inactive
         tabBar.backgroundColor = .white
-        tabBar.layer.borderColor = UIColor.black.cgColor
-        tabBar.layer.borderWidth = 1
+//        tabBar.layer.borderColor = UIColor.black.cgColor
+//        tabBar.layer.borderWidth = 1
         tabBar.layer.masksToBounds = true
         
-        let ratingController = UIViewController()
+        let ratingController = RatingAssembly.assemblyModule()
         let calendarController = UIViewController()
         let ribbonController = UIViewController()
         let mapController = UIViewController()
