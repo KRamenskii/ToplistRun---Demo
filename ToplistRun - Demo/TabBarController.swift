@@ -21,6 +21,7 @@ final class TabBarController: UITabBarController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
         configure()
+        self.selectedIndex = 2
     }
     
     required init?(coder: NSCoder) {
