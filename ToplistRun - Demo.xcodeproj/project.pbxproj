@@ -21,6 +21,8 @@
 		1D63AB1528F9924E00EE8AD4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1428F9924E00EE8AD4 /* TabBarController.swift */; };
 		1D63AB1828F993E300EE8AD4 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1728F993E300EE8AD4 /* UIColor + Ext.swift */; };
 		1D63AB1A28F9958900EE8AD4 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1928F9958900EE8AD4 /* Resources.swift */; };
+		1DE3F3C728FFC8D800F3D740 /* UIViewController + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3F3C628FFC8D800F3D740 /* UIViewController + Ext.swift */; };
+		1DE3F3CB28FFCB3000F3D740 /* SubscribeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3F3CA28FFCB3000F3D740 /* SubscribeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		1D63AB1428F9924E00EE8AD4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1D63AB1728F993E300EE8AD4 /* UIColor + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
 		1D63AB1928F9958900EE8AD4 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		1DE3F3C628FFC8D800F3D740 /* UIViewController + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Ext.swift"; sourceTree = "<group>"; };
+		1DE3F3CA28FFCB3000F3D740 /* SubscribeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				1D63AB1628F993C700EE8AD4 /* Extensions */,
 				1D63AB0228F989B700EE8AD4 /* ViewController.swift */,
 				1D63AB1428F9924E00EE8AD4 /* TabBarController.swift */,
+				1DE3F3C828FFCA4500F3D740 /* CommonViews */,
 				1D63AB1328F98C5700EE8AD4 /* SupportingFiles */,
 			);
 			path = "ToplistRun - Demo";
@@ -143,8 +148,25 @@
 			isa = PBXGroup;
 			children = (
 				1D63AB1728F993E300EE8AD4 /* UIColor + Ext.swift */,
+				1DE3F3C628FFC8D800F3D740 /* UIViewController + Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DE3F3C828FFCA4500F3D740 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3F3C928FFCA8000F3D740 /* SubscribeButton */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		1DE3F3C928FFCA8000F3D740 /* SubscribeButton */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3F3CA28FFCB3000F3D740 /* SubscribeButton.swift */,
+			);
+			path = SubscribeButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +244,7 @@
 				1D63AB0328F989B700EE8AD4 /* ViewController.swift in Sources */,
 				1D06C56328FA63D7005C10A1 /* RatingViewOutput.swift in Sources */,
 				1D63AB1528F9924E00EE8AD4 /* TabBarController.swift in Sources */,
+				1DE3F3C728FFC8D800F3D740 /* UIViewController + Ext.swift in Sources */,
 				1D63AB1828F993E300EE8AD4 /* UIColor + Ext.swift in Sources */,
 				1D63AB1A28F9958900EE8AD4 /* Resources.swift in Sources */,
 				1D06C55B28FA6364005C10A1 /* RatingAssembly.swift in Sources */,
@@ -229,6 +252,7 @@
 				1D06C55F28FA639F005C10A1 /* RatingViewController.swift in Sources */,
 				1D63AAFF28F989B700EE8AD4 /* AppDelegate.swift in Sources */,
 				1D63AB0128F989B700EE8AD4 /* SceneDelegate.swift in Sources */,
+				1DE3F3CB28FFCB3000F3D740 /* SubscribeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,8 @@ class RatingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.setupNavigationBar()
     }
     
     // MARK: - Private functions
