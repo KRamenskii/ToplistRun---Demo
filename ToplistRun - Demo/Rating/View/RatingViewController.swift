@@ -13,16 +13,22 @@ class RatingViewController: UIViewController {
     
     var presenter: RatingPresenter?
     
+    @IBOutlet weak var searchView: SearchView!
+    
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.setupNavigationBar()
+        setView()
     }
     
-    // MARK: - Private functions
+    // MARK: - Settings
     
+    private func setView() {
+        setupNavigationBar()
+        searchView.configure("Найди себя в базе спортсменов")
+    }
 }
 
 // MARK: - RatingViewInput

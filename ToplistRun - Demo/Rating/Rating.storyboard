@@ -15,9 +15,26 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A4v-Sb-LBg" customClass="SearchView" customModule="ToplistRun___Demo" customModuleProvider="target">
+                                <rect key="frame" x="10" y="57" width="370" height="30"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QR6-6U-MgR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A4v-Sb-LBg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="FHi-e0-Prj"/>
+                            <constraint firstItem="A4v-Sb-LBg" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="Rm6-eR-ltm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A4v-Sb-LBg" secondAttribute="trailing" constant="10" id="gty-dE-Fvx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchView" destination="A4v-Sb-LBg" id="FeE-cZ-hc4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

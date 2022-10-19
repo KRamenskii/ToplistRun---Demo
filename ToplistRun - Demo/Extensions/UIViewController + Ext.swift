@@ -10,6 +10,8 @@ import UIKit
 extension UIViewController {
     
     func setupNavigationBar() {
+        navigationController?.view.backgroundColor = .secondarySystemBackground
+        navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.tintColor = Resources.Colors.active
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "bell.fill"), style: .done, target: self, action: nil)
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: SubscribeButton())

@@ -23,6 +23,7 @@ class SubscribeButton: UIButton {
     // MARK: - Settings
     
     private func setupView() {
+        makeSystem(self)
         backgroundColor = Resources.Colors.active
         setTitle("Оформить подписку", for: .normal)
         titleLabel?.textColor = .white

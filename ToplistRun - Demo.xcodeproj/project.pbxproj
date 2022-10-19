@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D06280B29003EDE00027B85 /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D06280A29003EDE00027B85 /* UIView + Ext.swift */; };
 		1D06C55B28FA6364005C10A1 /* RatingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D06C55A28FA6364005C10A1 /* RatingAssembly.swift */; };
 		1D06C55D28FA6376005C10A1 /* RatingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D06C55C28FA6376005C10A1 /* RatingPresenter.swift */; };
 		1D06C55F28FA639F005C10A1 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D06C55E28FA639F005C10A1 /* RatingViewController.swift */; };
@@ -21,11 +22,13 @@
 		1D63AB1528F9924E00EE8AD4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1428F9924E00EE8AD4 /* TabBarController.swift */; };
 		1D63AB1828F993E300EE8AD4 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1728F993E300EE8AD4 /* UIColor + Ext.swift */; };
 		1D63AB1A28F9958900EE8AD4 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1928F9958900EE8AD4 /* Resources.swift */; };
+		1DA2D6FE29000E69003FE44B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2D6FD29000E69003FE44B /* SearchView.swift */; };
 		1DE3F3C728FFC8D800F3D740 /* UIViewController + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3F3C628FFC8D800F3D740 /* UIViewController + Ext.swift */; };
 		1DE3F3CB28FFCB3000F3D740 /* SubscribeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3F3CA28FFCB3000F3D740 /* SubscribeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D06280A29003EDE00027B85 /* UIView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
 		1D06C55A28FA6364005C10A1 /* RatingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingAssembly.swift; sourceTree = "<group>"; };
 		1D06C55C28FA6376005C10A1 /* RatingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingPresenter.swift; sourceTree = "<group>"; };
 		1D06C55E28FA639F005C10A1 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		1D63AB1428F9924E00EE8AD4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1D63AB1728F993E300EE8AD4 /* UIColor + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
 		1D63AB1928F9958900EE8AD4 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		1DA2D6FD29000E69003FE44B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		1DE3F3C628FFC8D800F3D740 /* UIViewController + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Ext.swift"; sourceTree = "<group>"; };
 		1DE3F3CA28FFCB3000F3D740 /* SubscribeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,13 +153,23 @@
 			children = (
 				1D63AB1728F993E300EE8AD4 /* UIColor + Ext.swift */,
 				1DE3F3C628FFC8D800F3D740 /* UIViewController + Ext.swift */,
+				1D06280A29003EDE00027B85 /* UIView + Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DA2D6FC29000E46003FE44B /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2D6FD29000E69003FE44B /* SearchView.swift */,
+			);
+			path = SearchView;
 			sourceTree = "<group>";
 		};
 		1DE3F3C828FFCA4500F3D740 /* CommonViews */ = {
 			isa = PBXGroup;
 			children = (
+				1DA2D6FC29000E46003FE44B /* SearchView */,
 				1DE3F3C928FFCA8000F3D740 /* SubscribeButton */,
 			);
 			path = CommonViews;
@@ -250,9 +264,11 @@
 				1D06C55B28FA6364005C10A1 /* RatingAssembly.swift in Sources */,
 				1D06C55D28FA6376005C10A1 /* RatingPresenter.swift in Sources */,
 				1D06C55F28FA639F005C10A1 /* RatingViewController.swift in Sources */,
+				1DA2D6FE29000E69003FE44B /* SearchView.swift in Sources */,
 				1D63AAFF28F989B700EE8AD4 /* AppDelegate.swift in Sources */,
 				1D63AB0128F989B700EE8AD4 /* SceneDelegate.swift in Sources */,
 				1DE3F3CB28FFCB3000F3D740 /* SubscribeButton.swift in Sources */,
+				1D06280B29003EDE00027B85 /* UIView + Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

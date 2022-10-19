@@ -31,9 +31,7 @@ final class TabBarController: UITabBarController {
     private func configure() {
         tabBar.tintColor = Resources.Colors.active
         tabBar.barTintColor = Resources.Colors.inactive
-        tabBar.backgroundColor = .white
-//        tabBar.layer.borderColor = UIColor.black.cgColor
-//        tabBar.layer.borderWidth = 1
+        tabBar.backgroundColor = .secondarySystemBackground
         tabBar.layer.masksToBounds = true
         
         let ratingController = RatingAssembly.assemblyModule()
