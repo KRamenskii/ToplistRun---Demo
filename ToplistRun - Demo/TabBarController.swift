@@ -38,7 +38,7 @@ final class TabBarController: UITabBarController {
         let calendarController = UIViewController()
         let ribbonController = UIViewController()
         let mapController = UIViewController()
-        let profileController = UIViewController()
+        let profileController = ProfileAssembly.assemblyModule()
         
         let ratingNavigation = UINavigationController(rootViewController: ratingController)
         let calendarNavigation = UINavigationController(rootViewController: calendarController)

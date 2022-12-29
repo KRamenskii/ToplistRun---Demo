@@ -22,6 +22,12 @@
 		1D63AB1528F9924E00EE8AD4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1428F9924E00EE8AD4 /* TabBarController.swift */; };
 		1D63AB1828F993E300EE8AD4 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1728F993E300EE8AD4 /* UIColor + Ext.swift */; };
 		1D63AB1A28F9958900EE8AD4 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63AB1928F9958900EE8AD4 /* Resources.swift */; };
+		1D87DC63295D5CA500470B97 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D87DC62295D5CA500470B97 /* Profile.storyboard */; };
+		1D87DC65295D5CBD00470B97 /* ProfileAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87DC64295D5CBD00470B97 /* ProfileAssembly.swift */; };
+		1D87DC67295D5CD200470B97 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87DC66295D5CD200470B97 /* ProfilePresenter.swift */; };
+		1D87DC69295D5CE600470B97 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87DC68295D5CE600470B97 /* ProfileViewController.swift */; };
+		1D87DC6B295D5D0200470B97 /* ProfileViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87DC6A295D5D0200470B97 /* ProfileViewInput.swift */; };
+		1D87DC6D295D5D1000470B97 /* ProfileViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D87DC6C295D5D1000470B97 /* ProfileViewOutput.swift */; };
 		1DA2D6FE29000E69003FE44B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2D6FD29000E69003FE44B /* SearchView.swift */; };
 		1DE3F3C728FFC8D800F3D740 /* UIViewController + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3F3C628FFC8D800F3D740 /* UIViewController + Ext.swift */; };
 		1DE3F3CB28FFCB3000F3D740 /* SubscribeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3F3CA28FFCB3000F3D740 /* SubscribeButton.swift */; };
@@ -45,6 +51,12 @@
 		1D63AB1428F9924E00EE8AD4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1D63AB1728F993E300EE8AD4 /* UIColor + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
 		1D63AB1928F9958900EE8AD4 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		1D87DC62295D5CA500470B97 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		1D87DC64295D5CBD00470B97 /* ProfileAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
+		1D87DC66295D5CD200470B97 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		1D87DC68295D5CE600470B97 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1D87DC6A295D5D0200470B97 /* ProfileViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewInput.swift; sourceTree = "<group>"; };
+		1D87DC6C295D5D1000470B97 /* ProfileViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewOutput.swift; sourceTree = "<group>"; };
 		1DA2D6FD29000E69003FE44B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		1DE3F3C628FFC8D800F3D740 /* UIViewController + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Ext.swift"; sourceTree = "<group>"; };
 		1DE3F3CA28FFCB3000F3D740 /* SubscribeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeButton.swift; sourceTree = "<group>"; };
@@ -119,6 +131,7 @@
 			children = (
 				1D63AB1228F98C4600EE8AD4 /* Application */,
 				1D06C55628FA61C2005C10A1 /* Rating */,
+				1D87DC5E295D5C5B00470B97 /* Profile */,
 				1D63AB1628F993C700EE8AD4 /* Extensions */,
 				1D63AB0228F989B700EE8AD4 /* ViewController.swift */,
 				1D63AB1428F9924E00EE8AD4 /* TabBarController.swift */,
@@ -156,6 +169,43 @@
 				1D06280A29003EDE00027B85 /* UIView + Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1D87DC5E295D5C5B00470B97 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1D87DC61295D5C8B00470B97 /* Assembly */,
+				1D87DC60295D5C8500470B97 /* Presenter */,
+				1D87DC5F295D5C7A00470B97 /* View */,
+				1D87DC62295D5CA500470B97 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1D87DC5F295D5C7A00470B97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D87DC68295D5CE600470B97 /* ProfileViewController.swift */,
+				1D87DC6A295D5D0200470B97 /* ProfileViewInput.swift */,
+				1D87DC6C295D5D1000470B97 /* ProfileViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D87DC60295D5C8500470B97 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1D87DC66295D5CD200470B97 /* ProfilePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1D87DC61295D5C8B00470B97 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				1D87DC64295D5CBD00470B97 /* ProfileAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		1DA2D6FC29000E46003FE44B /* SearchView */ = {
@@ -243,6 +293,7 @@
 			files = (
 				1D63AB0B28F989B800EE8AD4 /* LaunchScreen.storyboard in Resources */,
 				1D06C56528FA6766005C10A1 /* Rating.storyboard in Resources */,
+				1D87DC63295D5CA500470B97 /* Profile.storyboard in Resources */,
 				1D63AB0828F989B800EE8AD4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,16 +306,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D06C56128FA63C2005C10A1 /* RatingViewInput.swift in Sources */,
+				1D87DC65295D5CBD00470B97 /* ProfileAssembly.swift in Sources */,
 				1D63AB0328F989B700EE8AD4 /* ViewController.swift in Sources */,
 				1D06C56328FA63D7005C10A1 /* RatingViewOutput.swift in Sources */,
+				1D87DC6B295D5D0200470B97 /* ProfileViewInput.swift in Sources */,
 				1D63AB1528F9924E00EE8AD4 /* TabBarController.swift in Sources */,
 				1DE3F3C728FFC8D800F3D740 /* UIViewController + Ext.swift in Sources */,
 				1D63AB1828F993E300EE8AD4 /* UIColor + Ext.swift in Sources */,
+				1D87DC69295D5CE600470B97 /* ProfileViewController.swift in Sources */,
 				1D63AB1A28F9958900EE8AD4 /* Resources.swift in Sources */,
 				1D06C55B28FA6364005C10A1 /* RatingAssembly.swift in Sources */,
 				1D06C55D28FA6376005C10A1 /* RatingPresenter.swift in Sources */,
+				1D87DC67295D5CD200470B97 /* ProfilePresenter.swift in Sources */,
 				1D06C55F28FA639F005C10A1 /* RatingViewController.swift in Sources */,
 				1DA2D6FE29000E69003FE44B /* SearchView.swift in Sources */,
+				1D87DC6D295D5D1000470B97 /* ProfileViewOutput.swift in Sources */,
 				1D63AAFF28F989B700EE8AD4 /* AppDelegate.swift in Sources */,
 				1D63AB0128F989B700EE8AD4 /* SceneDelegate.swift in Sources */,
 				1DE3F3CB28FFCB3000F3D740 /* SubscribeButton.swift in Sources */,
